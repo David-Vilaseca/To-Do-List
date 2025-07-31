@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    justify-content: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: lightgrey;
+}
+
+.input-container {
+    padding: 15px;
+    gap: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background-color: #fff;
+    border-radius: 6px;
+}
+
+.input-task {
+    padding: 5px;
+    border-radius: 6px;
+}
+
+.input-task:focus {
+    padding: 5px;
+    border-radius: 6px;
+}
+
+.task-container {
+    padding: 15px;
+    margin: 10px;
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 6px;
+}
+
+.task {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#add-task {
+    padding: 2px;
+    border: none;
+    border-radius: 6px;
+    color: green;
+    background-color: #fff;
+    transition: 0.2s;
+}
+
+#add-task:hover {
+    cursor: pointer;
+    background-color: green;
+    color: #fff;
+}
+
+#add-task:active {
+    scale: 0.90;
+}
+
+#edit-task {
+    padding: 2px;
+    border: none;
+    border-radius: 6px;
+    color: blue;
+    background-color: #fff;
+    transition: 0.2s;
+}
+
+#edit-task:hover {
+    cursor: pointer;
+}
+
+#edit-task:active {
+    scale: 0.90;
+}
+
+#delete-task {
+    padding: 2px;
+    border: none;
+    border-radius: 6px;
+    color: red;
+    background-color: #fff;
+    transition: 0.2s;
+}
+
+#delete-task:hover {
+    cursor: pointer;
+}
+
+#delete-task:active {
+    scale: 0.90;
+}
